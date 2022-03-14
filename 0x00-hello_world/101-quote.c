@@ -8,7 +8,7 @@
  *
  */
 
-int maiin(void)
+int main(void)
 {
 
 	write(2,
