@@ -1,6 +1,6 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
  * main - Last digit of a number stored in variable n
@@ -14,6 +14,7 @@ int main(void)
 
 	int n;
 	int last_Digit;
+
 	srand(time(0));
 	n = rand() - RAND_MAX /2;
 	last_Digit = n % 10;
