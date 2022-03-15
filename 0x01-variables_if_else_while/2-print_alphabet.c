@@ -3,7 +3,7 @@
 /**
  * main - Printing alphabet in lowercase
  *
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  *
  */
 
@@ -17,6 +17,7 @@ int main(void)
 		z++;
 	}
 	putchar('\n');
+
 	return (0);
 
 }
