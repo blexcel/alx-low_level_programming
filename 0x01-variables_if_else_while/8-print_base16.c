@@ -11,7 +11,7 @@ int main(void)
 {
 	int n = '0';
 
-	while (n <= '15')
+	while (n <= 15)
 	{
 		putchar(n);
 		n++;
