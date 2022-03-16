@@ -3,7 +3,7 @@
 /**
  * main - All possible combination of 3 digits that meets certain condition
  *
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  *
  */
 
@@ -21,7 +21,7 @@ int main(void)
 			s = '0';
 			while (s <= '9')
 			{
-				if (n == z || n ==s || z == s)
+				if (n == z || n == s || z == s)
 				{
 
 				}
@@ -34,7 +34,7 @@ int main(void)
 					putchar(n);
 					putchar(z);
 					putchar(s);
-					if (n == '7'&& z == '8' && s == '9')
+					if (n == '7' && z == '8' && s == '9')
 					{
 						break;
 					}
