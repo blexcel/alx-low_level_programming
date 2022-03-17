@@ -3,7 +3,6 @@
 
 
 /**
- *
  * convert_day - converts day of month to day of year, without accounting
  *
  * for leap year
@@ -53,8 +52,8 @@ int convert_day(int month, int day)
 		case 12:
 			day = 334 + day;
 			break;
-	        default:
-          		break;		 
+		default:
+			break;
 	}
 	return (day);
 }
