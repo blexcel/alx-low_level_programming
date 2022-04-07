@@ -1,5 +1,3 @@
-#include "main"
-
 /**
  * _strspn - Gets the length of a prefix substring.
  * @s: String where substring will look.
