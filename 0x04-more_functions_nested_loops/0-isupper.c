@@ -8,12 +8,12 @@
  * Return - returns 1 if c is uppercase and o if otherwise
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
-	char uppercase = ''A;
+	char uppercase = 'A';
 	int isupper = 0;
 
-	for (; uppercasse <= 'Z'; uppercase++)
+	for (; uppercase <= 'Z'; uppercase++)
 	{
 		if (c == uppercase)
 		{
